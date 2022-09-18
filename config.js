@@ -128,7 +128,7 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'newspaper',
 			id: '1',
 			links: [
 				{
@@ -150,7 +150,7 @@ const CONFIG = {
 			],
 		},
 		{
-			icon: 'github',
+			icon: 'code-2',
 			id: '2',
 			links: [
 				{
@@ -167,7 +167,7 @@ const CONFIG = {
 				},
 				{
 					name: 'Repos',
-					link: 'https://github.com/GotaLoveFiraCode',
+					link: 'https://github.com/GotaLoveFiraCode?tab=repositories',
 				},
 			],
 		},
@@ -215,7 +215,7 @@ const CONFIG = {
 				},
 				{
 					name: 'Repos',
-					link: 'https://github.com/GotaLoveFiraCode',
+					link: 'https://github.com/GotaLoveFiraCode?tab=repositories',
 				},
 			],
 		},
