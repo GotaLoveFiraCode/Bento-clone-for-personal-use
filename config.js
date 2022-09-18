@@ -132,20 +132,20 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Spotify',
+					link: 'https://open.spotify.com',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'WashingtonPost',
+					link: 'https://www.washingtonpost.com/',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'MediaMarkt',
+					link: 'https://www.mediamarkt.de/',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'HackerNews',
+					link: 'https://thehackernews.com/',
 				},
 			],
 		},
@@ -202,20 +202,20 @@ const CONFIG = {
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'SoloLearn',
+					link: 'https://www.sololearn.com/learn',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'YouTube',
+					link: 'https://www.youtube.com/',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'StackOverflow',
+					link: 'https://stackoverflow.com/',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'Repos',
+					link: 'https://github.com/GotaLoveFiraCode',
 				},
 			],
 		},
