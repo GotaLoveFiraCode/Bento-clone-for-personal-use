@@ -128,6 +128,54 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
+			icon: 'binary',
+			id: '1',
+			links: [
+				{
+					name: 'Spotify',
+					link: 'https://open.spotify.com',
+				},
+				{
+					name: 'WashingtonPost',
+					link: 'https://www.washingtonpost.com/',
+				},
+				{
+					name: 'MediaMarkt',
+					link: 'https://www.mediamarkt.de/',
+				},
+				{
+					name: 'HackerNews',
+					link: 'https://thehackernews.com/',
+				},
+			],
+		},
+		{
+			icon: 'github',
+			id: '2',
+			links: [
+				{
+					name: 'SoloLearn',
+					link: 'https://www.sololearn.com/learn',
+				},
+				{
+					name: 'YouTube',
+					link: 'https://www.youtube.com/',
+				},
+				{
+					name: 'StackOverflow',
+					link: 'https://stackoverflow.com/',
+				},
+				{
+					name: 'Repos',
+					link: 'https://github.com/GotaLoveFiraCode',
+				},
+			],
+		},
+	],
+
+	// Second Links Container
+	secondListsContainer: [
+		{
 			icon: 'music',
 			id: '1',
 			links: [
@@ -168,54 +216,6 @@ const CONFIG = {
 				{
 					name: 'Slack',
 					link: 'https://www.slack.com',
-				},
-			],
-		},
-	],
-
-	// Second Links Container
-	secondListsContainer: [
-		{
-			icon: 'binary',
-			id: '1',
-			links: [
-				{
-					name: 'Spotify',
-					link: 'https://www.spotify.com',
-				},
-				{
-					name: 'Reddit',
-					link: 'https://www.reddit.com',
-				},
-				{
-					name: 'Hashnode',
-					link: 'https://www.hashnode.com',
-				},
-				{
-					name: 'Pocket',
-					link: 'https://www.pocket.com',
-				},
-			],
-		},
-		{
-			icon: 'github',
-			id: '2',
-			links: [
-				{
-					name: 'Front',
-					link: 'https://www.reddit.com/r/Frontend/',
-				},
-				{
-					name: 'Rust',
-					link: 'https://www.reddit.com/r/rust/',
-				},
-				{
-					name: 'Go',
-					link: 'https://www.reddit.com/r/golang/',
-				},
-				{
-					name: 'Repos',
-					link: 'https://github.com/migueravila',
 				},
 			],
 		},
