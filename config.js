@@ -64,9 +64,9 @@ const CONFIG = {
 		},
 		{
 			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://metropolitanschool.com/en/about-us/school-life/calendar',
+			name: 'Search',
+			icon: 'search',
+			link: 'https://search.brave.com/',
 		},
 		{
 			id: '5',
