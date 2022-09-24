@@ -21,6 +21,14 @@
 
 		<div class="timeBlock">
 			<div class="clock">
+				<div id="binary-clock" class="app"></div>
+    			<script src="js/BinaryClock.js"></script>
+    			<script>
+        			(function(){
+            			const clock = new BinaryClock('binary-clock',32);
+            			clock.start(1000);
+        			})();
+    			</script>
 				<div id="hour"></div>
 				<div id="separator"></div>
 				<div id="minutes"></div>
