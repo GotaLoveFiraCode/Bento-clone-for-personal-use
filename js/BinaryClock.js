@@ -90,7 +90,7 @@ class BinaryClock {
         }
         for (let index in binaryTime.split('')) {
             if (binaryTime[index] == 0) {
-                document.getElementById(this.timEl[index]).style.backgroundColor = 'black';
+                document.getElementById(this.timEl[index]).style.backgroundColor = '';
             } else {
                 document.getElementById(this.timEl[index]).style.backgroundColor = 'yellow';
             }
