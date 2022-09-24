@@ -132,8 +132,8 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
-					name: 'Spotify',
-					link: 'https://open.spotify.com',
+					name: 'Onedrive',
+					link: 'https://metropolitanschool-my.sharepoint.com',
 				},
 				{
 					name: 'WashingtonPost',
