@@ -140,8 +140,9 @@ body {
 	text-shadow: 10px 10px 5px black;
 	animation-name: picture;
 	animation-duration: 15s;
-	animation-delay: -1s;
+	animation-delay: 0s;
 	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
 }
 
 .weatherBlock {
@@ -161,9 +162,10 @@ body {
 	background-image: var(--imgcol), var(--imgbg);
 	text-shadow: 10px 10px 5px black;
 	animation-name: picture;
-	animation-duration: 14s;
-	animation-delay: -1s;
+	animation-duration: 15s;
+	animation-delay: 0s;
 	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
 }
 
 .app {
