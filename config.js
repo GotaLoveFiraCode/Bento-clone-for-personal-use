@@ -4,29 +4,29 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'Fira',
+	name: 'Fira!',
 	imageBackground: true,
 	openInNewTab: false,
 	twelveHourFormat: false,
 
 	// Greetings
-	greetingMorning: 'Good morning!',
+	greetingMorning: 'Good morning',
 	greetingAfternoon: 'Good afternoon',
 	greetingEvening: 'Good evening',
-	greetingNight: 'Go to Sleep!',
+	greetingNight: 'Go to Sleep',
 
 	// Layout
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
 	weatherKey: '7833ab7dc732944f16f2f2b10cd0f8b7', // Write here your API Key
-	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
+	weatherIcons: 'Onedark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: false, // If false or an error occurs, the app will use the lat/lon below
 	defaultLatitude: '52.520008',
-	defaultLongitude: '13.404954', // Berlin, Germany
+	defaultLongitude: '13.404954', // Berlin, Land Berlin, Germany
 
 	// Autochange
 	autoChangeTheme: true,

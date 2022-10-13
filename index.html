@@ -19,43 +19,43 @@
 		
 		<!-- Clock and Greetings  -->
 
-		<div class="timeBlock">
-			<div class="clock">
-				<div id="binary-clock" class="app"></div>
-    			<script src="js/BinaryClock.js"></script>
-    			<script>
-        			(function(){
-            			const clock = new BinaryClock('binary-clock',32);
-            			clock.start(1000);
-        			})();
-    			</script>
-    			<hr>
-				<div id="hour"></div>
-				<div id="separator"></div>
-				<div id="minutes"></div>
+			<div class="timeBlock">
+				<div class="clock">
+					<div id="binary-clock" class="app"></div>
+	    			<script src="js/BinaryClock.js"></script>
+	    			<script>
+	        			(function(){
+	            			const clock = new BinaryClock('binary-clock',32);
+	            			clock.start(1000);
+	        			})();
+	    			</script>
+	    			<hr>
+					<div id="hour"></div>
+					<div id="separator"></div>
+					<div id="minutes"></div>
+				</div>
+				<div id="greetings"></div>
 			</div>
-			<div id="greetings"></div>
-		</div>
 
 		<!-- Date and Weather  -->
 
-		<div class="weatherBlock">
-			<div class="date">
-				<div id="month"></div>
-				<div id="day"></div>
+			<div class="weatherBlock">
+				<div class="date">
+					<div id="month"></div>
+					<div id="day"></div>
+				</div>
+				<div class="weather">
+					<div class="weatherIcon">
+						<img src="assets/icons/OneDark/unknown.png" />
+					</div>
+					<div class="weatherValue">
+						<p>- °<span class="g">c</span></p>
+					</div>
+					<div class="weatherDescription">
+						<p></p>
+					</div>
+				</div>
 			</div>
-			<div class="weather">
-				<div class="weatherIcon">
-					<img src="assets/icons/OneDark/unknown.png" />
-				</div>
-				<div class="weatherValue">
-					<p>- °<span class="g">c</span></p>
-				</div>
-				<div class="weatherDescription">
-					<p></p>
-				</div>
-			</div>
-		</div>
 
 		<div class="linksBlock" id="linksBlock">
 			<div class="linksBlockLeft" id="linksBlockLeft"></div>
